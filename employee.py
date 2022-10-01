@@ -41,7 +41,7 @@ class Employee:
                 self.str2 += " and"
             self.str2+= self.s4
         self.str2+= "."
-        self.str1+= self.str2 + "  Their total pay is " + str(self.pay)
+        self.str1+= self.str2 + "  Their total pay is " + str(self.pay) + "."
         return self.str1
 
 
